@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <tittle> site cear </tittle>
+        <style>
+            html
+            {
+                scroll-behavior: smooth;
+            }
+            #info
+            {
+                margin-top: 51.5%;
+                padding-bottom: 25%;
+            }
+            #home
+            {
+                margin-top: -80%;
+                padding-bottom: 1%;
+            }
+            .tittle1
+            {
+                
+                position: absolute;
+                left: 18%;
+                top: 23%;
+                font-size: 340%;
+                color: orange;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .tittle2
+            {
+                
+                position: absolute;
+                left: 18%;
+                top: 31%;
+                font-size: 340%;
+                color: black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .firstimgbg
+            {
+                position: absolute;
+                top: 1%;
+                border: 3px solid orange;
+            }
+            .menubarimg
+            {
+                position: absolute;
+                top: 0%;
+                border-bottom-right-radius:  20px;
+                border-bottom-left-radius: 20px;
+            }
+            .picture1
+            {
+                position: absolute;
+                top: 74%;
+                left: 17%;
+                border: 3px solid orange;
+                border-radius: 20px;
+            }
+            .techsettlogo
+            {
+                position: absolute;
+                top: 77%;
+                left: 29%;
+            }
+            .htmllogo
+            {
+                position: absolute;
+                top: 73.8%;
+                left: 61%;
+            }
+            .itlogo
+            {
+                position: absolute;
+                top: 74.4%;
+                left: 43.8%;
+            }
+            
+            body {margin:0;}
+            .bottom{position: absolute; top:500%;} 
+            .icon-bar
+             {
+                position: absolute;
+                top:3%;
+                left: 48%;
+                width: 50%;
+                background-color: white;
+                overflow: auto;
+                box-sizing: content-box;
+            }
+            .icon-bar a 
+                {
+                    float: left;
+                    width: 20%;
+                    text-align: center;
+                    padding: 12px 0;
+                    transition: all 0.3s ease;
+                    color: orange;
+                    font-size: 36px;
+                }
+
+            .icon-bar a:hover 
+                {
+                    background-color: #000;
+                }
+            .active
+                {
+                    background-color: rgb(255, 223, 184);
+                }
+            .TECH
+            {
+                position: absolute;
+                top: 87%;
+                left: 30.5%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .IT 
+            {
+                position: absolute;
+                top: 87%;
+                left: 48%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .HTMLCSS
+            {
+                position: absolute;
+                top: 87%;
+                left: 62.5%;
+                font-size: 190%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            
+            .hometittle
+            {
+                position: absolute;
+                top: 100%;
+                left: 15%;
+                font-size: 500%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(0, 0, 0);
+                border: 4px solid rgb(0, 0, 0);
+                border-radius: 30px;
+                box-sizing: border-box;
+                width: 70%;
+                text-align: center;
+            }
+            .text1
+            {  
+                text-align: center;
+                box-sizing: content-box;
+                padding: 30px;
+                border-radius: 30px;
+                height: 170%;
+                border: 4px solid black;
+                position: absolute;
+                top: 120%;
+                left: 8.2%;
+                font-size: 250%;
+                width: 80%;
+            }
+            .dom1
+            {
+                
+                position: absolute;
+                top: 154%;
+                left: 11%;
+                font-size: 350%;
+                width: 65%;
+                color: orange;
+            }
+            .text2
+            {
+                position: absolute;
+                top: 173%;
+                left: 17%;
+                font-size: 250%;
+                width: 65%;
+            }
+            .dom2
+            {
+                position: absolute;
+                top: 200%;
+                left: 11%;
+                font-size: 350%;
+                width: 65%;
+                color: orange;
+            }
+            .text3
+            {
+                position: absolute;
+                top: 215%;
+                left: 17%;
+                font-size: 250%;
+                width: 65%;
+            }
+            .text4
+            {
+                position: absolute;
+                top: 244%;
+                left: 11%;
+                font-size: 250%;
+                width: 65%;
+            }
+            .dom3
+            {
+                position: absolute;
+                top: 250%;
+                left: 25%;
+                font-size: 350%;
+                width: 65%;
+                color: orange;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .text5
+            {
+                position: absolute;
+                top: 265%;
+                left: 17%;
+                font-size: 250%;
+                width: 65%;
+            }
+
+            .sidebar 
+            {
+                height: 30%;
+                width: 0%;
+                position: fixed;
+                z-index: 1;
+                top: 30%;
+                left: 0;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid orange ;
+                border-bottom-right-radius: 25px;
+                border-top-right-radius: 25px;
+                overflow-x: hidden;
+                transition: 0.3s;
+                padding-top: 50px;
+            }
+
+            .sidebar a 
+            {
+                padding: 8px 8px 8px 26px;
+                text-decoration: none;
+                font-size: 35px;
+                color: rgb(255, 202, 104);
+                display:block;
+                transition: 0.3s;
+                
+            }
+
+            .sidebar a:hover 
+            {
+                color: bisque;
+            }
+
+            .sidebar .closebtn 
+            {
+                position: absolute;
+                top: 0%;
+                right: 25px;
+                font-size: 40px;
+                margin-left: 30px;
+                
+            }
+
+            .openbtn 
+            {
+                font-size: 20px;
+                cursor: pointer;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px;
+                border: 2px solid orange;
+                color:black;
+                padding: 10px 15px;
+            }
+
+            .openbtn:hover 
+            {
+                background-color: rgb(255, 250, 176);
+            }
+
+            #main 
+            {
+                transition: margin-left 0.3s;
+                padding: 16px;
+            }
+            @media screen and (max-height: 90px) 
+            {
+                .sidebar {padding-top: 15px;}
+                .sidebar a {font-size: 18px;}
+            }
+            .openbtn
+            {
+                position: fixed;
+                top: 92%;
+                left: 2%;
+            }
+          
+        </style>
+
+    </head>
+    <body>
+        <div class = "texthome" >Ce este o cariera in IT?</div>
+
+
+        <div class="backgroundimg">
+            <img src="images/background-image-for-website-15.jpg" class="firstimgbg" style="width:99.69%;height:800px">
+            <img src="images/11386(1).jpg" class="menubarimg" style="width:99.89%;height:140px">
+            <img src="images/color2.png" class="picture1" style="width:65%;height:200px">  
+            <img src="images/free-settings-icon-960-thumb.png" class="techsettlogo" style="width:120px;height:120px">
+            <img src="images/istockphoto-1206193220-612x612.png" class="htmllogo" style="width:180px;height:180px">
+            <img src="images/360_F_163915196_rpszYhZQ3iGWlh32rxFIEQs3iTROCmKu.png" class="itlogo" style="width:180px;height:180px">
+           
+        
+            <p class="tittle1">Ce este o carieră în IT & TECH? </p> 
+            <p class="tittle2">Cum imi aleg cariera în IT? </p>
+            <p class="IT"> IT </p>
+            <p class="TECH"> TECH </p>
+            <p class="HTMLCSS"> HTML/CSS </p>
+            <p class="bottom"> jos de tot </p>
+            </p>
+
+
+
+        </div>
+
+          <div class="icon-bar">
+               <a class="active" href="#home"> <i class="fa fa-home"> </i> </a>
+                <a href="#info"><i class="fa fa-search"></i></a> 
+                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa fa-user-o"></i></a> 
+                <a href="#"><i class="fa fa-envelope-open"></i></a> 
+                 
+            </div>
+
+     
+        <div class="textt">
+            <p class="hometittle"> IT & TECH </p>
+            <p class="text1">      Definiția generală a IT-ului sau Tehnologiei Informației este tehnologia necesară pentru prelucrarea informației, în particular prin folosirea computerelor, însă noi
+                vedem IT-ul ca pe un domeniu în continuă schimbare și dezvoltare, căutat pentru salariile bine plătite, dar și pentru entertaining-ul personal.
+                Însă, acest domeniu produce multe confuzii în rândul persoanelor, cele mai des întâlnite fiind: </p>
+            <p class="dom1"> 1."Industria IT si TECH este o comuninate închisă, în care este greu să te introduci." </p>
+            <p class="text2"> De fapt, industria IT este extrem de variată. În comuninatea persoanelor ce lucrează în această industrie se regăsesc persoane de toate vârstele,
+                din medii sociale diferite și din toată lumea. Exemplu, România se află pe locul 6 pe plan internațional și pe primul loc în Europa cu cei mai mulți angajați în industrie. 
+            </p>
+            <p class="dom2"> 2."IT-ul se axează numai pe programare" </p>
+            <p class="text3"> O confuzie întâlnită foarte des este asumarea totală IT-ului cu programarea/coding. În industria IT există job uri ce nu implică programare, aceste job uri fiind și bine plătite.
+                Însă cunoștiintele despre coding , chiar și cele de baza, te vor ajută foarte mult , chiar dacă lucrezi în IT sau nu. 
+                </p>
+            <p class="text4"> Că să răspund la prima întrebare, </p>
+            <p class="dom3"> Ce este o carieră în IT & TECH? </p>
+            <p class="text5">O carieră în IT & TECH este o alegere ce oferă posibilitatea nu numai unei dezvoltări individuale, dar și colective, indiferent de factorul ce determina să alegi această industrie</p>
+        </div>
+
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#home"> <i class="fa fa-home"> </i> </a>
+            <a href="#info"><i class="fa fa-search"></i></a> 
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-user-o"></i></a>
+            <a href="#"><i class="fa fa-envelope-open"></i></a> 
+          </div>
+
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+          </div>
+
+          <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "85px";
+              document.getElementById("main").style.marginLeft = "0px";
+            }
+
+            function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+        <div id="info"></div> 
+        <div id="home"></div> 
+
+    </body>
+</html>
